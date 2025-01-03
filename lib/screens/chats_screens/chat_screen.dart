@@ -211,6 +211,5 @@ class MessageBubble extends StatelessWidget {
         ],
       ),
     );
-    ;
   }
 }

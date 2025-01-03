@@ -40,11 +40,18 @@ class _HomeScreenControllerState extends State<HomeScreenController> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
         home: Scaffold(
+          backgroundColor: Colors.white,
       appBar: AppBar(
         backgroundColor: Colors.yellow,
         title: Text(
-          'Hey',
+          'Welcome To  Sign Bridge',
+          textAlign: TextAlign.center,
+          style: TextStyle(
+            color: Colors.black,
+            fontSize: 24,
+          ),
         ),
         actions: [
           IconButton(
@@ -59,6 +66,7 @@ class _HomeScreenControllerState extends State<HomeScreenController> {
         ],
       ),
       body: Padding(
+        
         padding: const EdgeInsets.all(16.0),
         child: Column(
           children: [
@@ -88,14 +96,14 @@ class _HomeScreenControllerState extends State<HomeScreenController> {
                     },
                   ),
                   SizedBoxHomeScreen(
-                      color: Colors.grey[300]!,
+                      color: Colors.lightBlue,
                       icon: Icons.chat,
                       label: 'Chats',
                       onPressed: () {
                          Navigator.pushNamed(context, ChatScreen.id);
                       }),
                   SizedBoxHomeScreen(
-                    color: Colors.redAccent,
+                    color: Colors.pink,
                     icon: Icons.quiz,
                     label: 'Quiz',
                     onPressed: () {
@@ -103,11 +111,19 @@ class _HomeScreenControllerState extends State<HomeScreenController> {
                     },
                   ),
                   SizedBoxHomeScreen(
-                    color: Colors.grey[300]!,
-                    icon: Icons.add,
-                    label: 'Stats',
+                    color: Colors.yellow.shade900,
+                    icon: Icons.sign_language,
+                    label: 'Text To ISL',
                     onPressed: () {
                       Navigator.pushNamed(context, TextToISLScreen.id);
+                    },
+                  ),
+                  SizedBoxHomeScreen(
+                    color: const Color.fromARGB(255, 42, 214, 236),
+                    icon: Icons.score_rounded,
+                    label: 'Stats',
+                    onPressed: () {
+                      // TODO: Navigate to Stats Screen
                     },
                   ),
                 ],
