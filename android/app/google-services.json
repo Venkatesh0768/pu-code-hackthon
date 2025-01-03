@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "668410325105",
+    "project_id": "sign-language-messaging-app",
+    "storage_bucket": "sign-language-messaging-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:668410325105:android:daf8d1bc398c1f065953d0",
+        "android_client_info": {
+          "package_name": "com.example.p1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8_AOr7s8o1FrKvIZ4mB4_5iF7wokSGco"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:668410325105:android:66403465b90f854c5953d0",
+        "android_client_info": {
+          "package_name": "com.example.sign_learn"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8_AOr7s8o1FrKvIZ4mB4_5iF7wokSGco"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
